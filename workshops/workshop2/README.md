@@ -2,7 +2,7 @@
 
 ## AddTwoNumbers.cpp
 
-Illustrates the most basic use of standard input and output streams: '<cin>' and '<cout>' in C++
+Illustrates the most basic use of standard input and output streams: *cin* and *cout* in C++
 
 ## InputOutput.cpp
 
