@@ -17,6 +17,6 @@
     * evenAverage
     * evenSumMax
 
-## Part 2
+## Part 2 (Optional)
 
-For a challenge see [Assignment 1 - Part 2](https://github.com/cadtexas/fa17-cplusplus/blob/master/assignments/assignment1/Assignment%201_Part2.pdf)
+If you're done with Part 1 and want an added challege see: [Assignment 1 - Part 2](https://github.com/cadtexas/fa17-cplusplus/blob/master/assignments/assignment1/Assignment%201_Part2.pdf)
