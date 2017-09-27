@@ -19,4 +19,4 @@
 
 ## Part 2
 
-For a challenge see [Assignment 1 - Part 2](Assignment 1_Part2.pdf)
+For a challenge see [Assignment 1 - Part 2](https://github.com/cadtexas/fa17-cplusplus/blob/master/assignments/assignment1/Assignment%201_Part2.pdf)
