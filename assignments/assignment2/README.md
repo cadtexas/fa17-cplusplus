@@ -7,14 +7,14 @@
 2) Click on 'Start Practicing!'
 
 3) Solve the following exercises under C++ -> **collection usage**
-  * **Vector**
-    * vectorMystery1
-    * mean
-    * switchPairs
-    * removePairs
-  * **Grid**
-    * gridMystery
-    * crossSum
+   * **Vector**
+     * vectorMystery1
+     * mean
+     * switchPairs
+     * removePairs
+   * **Grid**
+     * gridMystery
+     * crossSum
 
 ## Part 2 (Optional)
 
