@@ -26,7 +26,7 @@ The function header should look like this:
 
 **HINT:** Look at the documentation for grid.h [here](http://stanford.edu/~stepp/cppdoc/Grid-class.html)
 
-## Part 2 - Advance
+## Part 2 - Advanced
 
 1. Implement Scatter in Fauxtoshop. Read the problem statement [here](https://github.com/cadtexas/fa17-cplusplus/blob/master/workshops/workshop4/Fauxtoshop.pdf)
  
