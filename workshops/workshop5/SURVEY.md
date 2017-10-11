@@ -2,7 +2,7 @@
 
 ## Question 1 - For Loops
 
-```C++
+```cpp
 cout << "Loop 1 << endl;
 for(int i = 0; i < 10; i++) {
     cout << i << " ";
@@ -21,7 +21,7 @@ for(int i = num; i > 0; i--) {
 
 ## Question 2 - While Loops
 
-```C++
+```cpp
 string prompt = "Guess a decimal number between 1 and 10 with one decimal point (e.g. 1.5): ";
     double secret = 3.7;
     double guess = -1;
