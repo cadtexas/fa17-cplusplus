@@ -11,8 +11,7 @@ int getDegreeOfScatter() {
 
 **HINT:** Look at the documentation for simpio.h [here](http://stanford.edu/~stepp/cppdoc/simpio.html)
         
-2. Write a function called *getRandomNumber* that takes in **two integers** as an upper and lower bound (inclusive) and returns a **random integer** as a result. Again, the function should reprompt the user if the input given is invalid.
-The function header should look like this:
+2. Write a function called *getRandomNumber* that takes in **two integers** as an upper and lower bound (inclusive) and returns a **random integer** (within the bounds) as a result. The function header should look like this:
 ```C++
 int getRandomNumber(int lower, int upper) {
 
