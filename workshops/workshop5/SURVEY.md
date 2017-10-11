@@ -2,27 +2,32 @@
 
 ## Question 1 - For Loops
 
-``` cpp
-cout << "Loop 1 << endl;
-for(int i = 0; i < 10; i++) {
-    cout << i << " ";
-}
 
-cout << "Loop 2" << endl;
-for(int i = 10; i > 0; i--) {
-    cout << i << " ";
-}
-cout << "Loop 3" << endl;
-int num = getInteger("How many numbers to print: ");
-for(int i = num; i > 0; i--) {
-    cout << i << " ";
+``` cpp
+int main() {
+    cout << "Loop 1 << endl;
+    for(int i = 0; i < 10; i++) {
+        cout << i << " ";
+    }
+
+    cout << "Loop 2" << endl;
+    for(int i = 10; i > 0; i--) {
+        cout << i << " ";
+    }
+    cout << "Loop 3" << endl;
+    int num = getInteger("How many numbers to print: ");
+    for(int i = num; i > 0; i--) {
+        cout << i << " ";
+    }
+    return 0;
 }
 ```
 
 ## Question 2 - While Loops
 
 ``` cpp
-string prompt = "Guess a decimal number between 1 and 10 with one decimal point (e.g. 1.5): ";
+int main() {
+    string prompt = "Guess a decimal number between 1 and 10 with one decimal point (e.g. 1.5): ";
     double secret = 3.7;
     double guess = -1;
     int count = 1;
@@ -38,4 +43,6 @@ string prompt = "Guess a decimal number between 1 and 10 with one decimal point 
         count++;
     }
     cout << "It took you " << count << " tries to guess " << secret << "!" << endl;
+    return 0;
+}
 ```
