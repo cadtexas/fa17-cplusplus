@@ -4,8 +4,8 @@
 
 
 ``` cpp
-#include "simpio.h"
 #include <iostream>
+#include "simpio.h"
 
 using namespace std;
 
@@ -31,8 +31,8 @@ int main() {
 ## Question 2 - While Loops
 
 ``` cpp
-#include "simpio.h"
 #include <iostream>
+#include "simpio.h"
 
 using namespace std;
 
@@ -60,13 +60,13 @@ int main() {
 ## Question 3 - Vector
 
 ``` cpp
+#include <iostream>
 #include "vector.h"
 #include "simpio.h"
-#include <iostream>
 
 using namespace std;
 
-insertionSort(Vector<int> v);
+void insertionSort(Vector<int> &vector);
 
 int main() {
     Vector<int> numbers;
@@ -95,6 +95,46 @@ void insertionSort(Vector<int> &vector) {
        vector.set(j+1, key);
    }
 }
-
 ```
+
+## Question 4 - Grid
+
+``` cpp
+#include <iostream>
+#include "console.h"
+#include "gwindow.h" // for GWindow
+#include "grid.h"
+#include "simpio.h"
+
+
+using namespace std;
+
+int main() {
+    int windowSize = 300;
+    int blockSize = windowSize/size;
+    GWindow window(windowSize, windowSize);
+    window.setColor("White");
+    window.clear();
+    window.setWindowTitle("C++ Language Rundown #1");
+    window.setColor("Black");
+    for(int x = 0; x < draw.width(); x++) {
+        for(int y = 0;y < draw.height(); y++) {
+            if(draw.get(x,y)) {
+                window.fillRect(x*blockSize,y*blockSize,blockSize,blockSize);
+            }
+        }
+    }
+
+    window.setVisible(true);
+
+    getLine("Press [Enter] to close the window... ");
+    window.requestFocus();
+    window.close();
+    exitGraphics();
+
+    return 0;
+}
+```
+
+
 
