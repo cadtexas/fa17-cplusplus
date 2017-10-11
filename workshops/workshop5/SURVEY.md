@@ -110,6 +110,8 @@ void insertionSort(Vector<int> &vector) {
 using namespace std;
 
 int main() {
+
+    /* START: SET UP WINDOW (Ignore) */
     int windowSize = 300;
     int blockSize = windowSize/size;
     GWindow window(windowSize, windowSize);
@@ -117,6 +119,16 @@ int main() {
     window.clear();
     window.setWindowTitle("C++ Language Rundown #1");
     window.setColor("Black");
+    /* END: SET UP WINDOW */
+    
+    int size = 10;
+    Grid<bool> draw(size,size);
+    draw.fill(true);
+    for(int i = 0; i < size; i++) {
+        draw.set(i,i,false);
+    }
+    cout << draw.toString2D() << endl;
+    
     for(int x = 0; x < draw.width(); x++) {
         for(int y = 0;y < draw.height(); y++) {
             if(draw.get(x,y)) {
@@ -125,12 +137,13 @@ int main() {
         }
     }
 
+    /* START: EXIT WINDOW (Ignore) */
     window.setVisible(true);
-
     getLine("Press [Enter] to close the window... ");
     window.requestFocus();
     window.close();
     exitGraphics();
+    /* END: EXIT WINDOW */
 
     return 0;
 }
