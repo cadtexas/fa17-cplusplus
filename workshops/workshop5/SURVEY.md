@@ -5,7 +5,7 @@
 
 ``` cpp
 int main() {
-    cout << "Loop 1 << endl;
+    cout << "Loop 1" << endl;
     for(int i = 0; i < 10; i++) {
         cout << i << " ";
     }
