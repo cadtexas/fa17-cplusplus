@@ -43,5 +43,7 @@
     delete cpp;
 ```
 
+## Input, Random, and Grid Examples
 
+See code [here](https://github.com/cadtexas/fa17-cplusplus/edit/master/workshops/workshop5/grid_examples.cpp)
 
