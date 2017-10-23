@@ -4,10 +4,13 @@ Implementing Fauxtoshop
 
 ## Menu Option 1: Scatter
 
-For this filter, your program will take the original image and “scatter” its pixels, making something that looks like a sand drawing that was shaken.
-First, ask the user to provide a *“degree of scatter”* for how far we should scatter pixels. The value should be an integer between 1 and 100, inclusive (otherwise reprompt).
+For this filter, your program will take the original image and “scatter” its pixels, making something that looks like a sand drawing that was shaken. First, ask the user to provide a *“degree of scatter”* for how far we should scatter pixels. The value should be an integer between 1 and 100, inclusive (otherwise reprompt).
 
 Then create a new image Grid that has the same dimensions as the original image Grid. Next, for each pixel in the new image, randomly select a pixel from nearby that row and column in the original image that will provide the color for this pixel in the new image. You will randomly select the pixel by randomly selecting a row that is within radius of the current row, and randomly selecting a column that is within radius of the current column. If the randomly selected row or column is out of bounds of the Grid of the original image, you should randomly select again until you get an in-bounds pixel.
+
+## Menu Option 4: Compare
+
+This function will help you debug your code by comparing your output to the sample outputs provided on the course website. For this menu option, ask the user to name another image file (the same way described in Green Screen section), and you will count how many pixels differ between the two. This would be easy to do by *iterating* over the pixels yourself, but it’s actually even easier than that—there is a **countDiffPixels** method in the GBufferedImage class that does all the work for you. Use it, then report the result to the user. Print a nonzero count as *“These images differ in _ pixel locations!”* or print *“These images are the same!”* as applicable. You will continue to display the original image. (It will be a bit superfluous when the main menu asks the user if they want to save the resulting image in this case, but that’s okay.)
 
 ## Menu Option 2: Edge Detection
 
@@ -16,4 +19,6 @@ For this filter, your program will create a new black and white image of the sam
 First, ask the user for a *threshold* that controls how different two adjacent pixels must be from each other to be considered an “edge.” This should be a positive (nonzero) integer value (otherwise re-prompt). Then, loop over each pixel and determine if it is an edge or not.
 
 A pixel is defined as an edge if at least one of its neighbors has a difference of greater than threshold from it. The neighbors are the 9 pixels (including self) immediately adjacent or diagonal from the current “self” row/column of the Grid. So if my distances to my neighbors are: 9, 8, 5, 3, 3, 0 (self), 4, 7, 8, 7, then it would only be considered an edge if the threshold were less than 9 (the greatest difference between me and one of my neighbors). Remember that pixels near edges and corners may not have all 9 neighbors, so take care not to go out of bounds. The Grid class has an **inBounds** method that will be helpful.
+
+
 
