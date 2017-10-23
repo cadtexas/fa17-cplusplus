@@ -1,6 +1,6 @@
 # Workshop 6
 
-Implementing Fauxtoshop
+Implementing Fauxtoshop - Access the full problem statement [here](https://github.com/cadtexas/fa17-cplusplus/blob/master/workshops/workshop4/Fauxtoshop.pdf)
 
 ## Menu Option 1: Scatter
 
