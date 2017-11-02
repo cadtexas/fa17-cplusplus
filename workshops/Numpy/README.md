@@ -10,7 +10,7 @@ A list `baseball` has already been defined in the Python script, representing th
 * Print out the type of `np_baseball` to check that you got it right.
 
 `@sample_code`
-```{python}
+```python
 # Create list baseball
 baseball = [180, 215, 210, 210, 188, 176, 209, 200]
 
