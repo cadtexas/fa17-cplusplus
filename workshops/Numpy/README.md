@@ -1,4 +1,4 @@
-# Numpy Exercises
+# NumPy Exercises
 
 ## Exercise 1 - Your First NumPy Array
 A list `baseball` has already been defined in the Python script, representing the height of some baseball players in centimeters. Can you add some code here and there to create a `numpy` array from it?
