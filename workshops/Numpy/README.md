@@ -70,7 +70,7 @@ It's now possible to calculate the BMI of each baseball player. Python code to c
 * Print out `bmi`.
 
 ### Sample code
-```{python}
+```python
 # Importing height and weight arrays
 import pandas as pd
 mlb = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/intro_to_python/baseball.csv")
