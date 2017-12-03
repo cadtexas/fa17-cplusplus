@@ -43,5 +43,4 @@ class as we will be working on programming assignments during lectures.
  - Juan Trejo 
  - Miguel Obregon
 
-
-See the syllabus for more information
+See the syllabus for more information.
